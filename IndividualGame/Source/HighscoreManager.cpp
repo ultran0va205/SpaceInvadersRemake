@@ -5,8 +5,6 @@
 #include <algorithm>
 #include <string>
 
-//I used the same system in our group project; the only change here is the name input
-
 Highscore::Highscore()
 {
 	LoadHighScore(); // Load high scores from the file when an instance is created.
