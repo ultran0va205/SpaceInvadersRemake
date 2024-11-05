@@ -2,8 +2,6 @@
 #include "raylib.h"
 #include "GameManager.h"
 
-//the whole code logic is mine, but it was a bit unorganized, so I took help from ChatGPT to organize and make it concise
-
 GameManager::GameManager() : GS(GameStates::MAIN_MENU)
 {
 	game = Game();
